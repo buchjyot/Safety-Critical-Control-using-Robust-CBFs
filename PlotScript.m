@@ -5,7 +5,7 @@ figure;
 hold on;grid on;box on;
 
 % Reference trajectories
-p1 = plot([x0(5),Ref(5)],[Ref(1),Ref(1)],'k--','LineWidth',2.5);
+p1 = plot([x0(5),Ref(5)],[Ref(1),Ref(1)],':k','LineWidth',2.5);
 
 % LQR trajectories
 p2 = plot(xLQR(:,5),xLQR(:,1),'b','LineWidth',2.5);
@@ -35,8 +35,8 @@ axis equal
 xlim([-s0, s0]);
 ylim([-5.5,5.5]);
 
-hl = legend([p1 p2 p3 p4 p5],'Reference','LQR Baseline','Unsafe Region','ECBF-QP','RECBF-SOCP','FontSize',12,'Orientation','horizontal');
-set(hl,'location','south','fontsize',20);
+hl = legend([p2 p4 p5],'LQR','ECBF','RECBF','FontSize',12,'Orientation','horizontal');
+set(hl,'location','southeast','fontsize',20);
 
 %% Figure 2
 figure;
