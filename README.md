@@ -13,10 +13,12 @@ This paper focus on safety critical control with sector-bounded uncertainties at
 #### Citing
 If this project is helpful, please consider citing the following work:
 ```
-@inproceedings{zeng2021mpccbf,
-  title={Safety-critical model predictive control with discrete-time control barrier function},
-  author={Zeng, Jun and Zhang, Bike and Sreenath, Koushil},
-  booktitle={2021 American Control Conference (ACC)},
-  year={2021}
+@misc{buch2021robust,
+      title={Robust Control Barrier Functions with Sector-Bounded Uncertainties}, 
+      author={Jyot Buch and Shih-Chi Liao and Peter Seiler},
+      year={2021},
+      eprint={2109.02537},
+      archivePrefix={arXiv},
+      primaryClass={math.OC}
 }
 ```
