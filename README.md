@@ -10,7 +10,7 @@ This paper focus on safety critical control with sector-bounded uncertainties at
 
 Paper: [IEEE Control Systems Letters](https://ieeexplore.ieee.org/document/9656566) or [arXiv](https://arxiv.org/abs/2109.02537)        
 
-Presentation: [slides at American Control Conference 2022](....)
+Presentation: [slides at American Control Conference 2022](https://github.com/buchjyot/Safety-Critical-Control-using-Robust-CBFs/blob/main/doc/Presentation_ACC20220608.pdf)
 
 #### Citing
 If this project is helpful, please consider citing the following work:
